@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+table{
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 50px;
+}
+
+thead{
+    border: 2px solid black;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+tbody{
+    border: 2px solid black;
+    
+}
+tr{
+    background-color: whitesmoke;
+    color: black;
+    
+}
+.container {
+    height: 200px;
+    /* position: relative; */
+    align-content: center;
+   
+  }
+  
+  .vertical-center {
+    margin-right: 50px;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    align-items: center;
+  }
+  button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-self: center;
+  }
